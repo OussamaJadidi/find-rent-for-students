@@ -1,0 +1,94 @@
+.formulaire{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px 20px 20PX 20PX;
+    width: 350px;
+    height: 300px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left:50%;
+    transform: translate(-50%);
+    transition: 0.5s ;
+}
+.formulaire h2{
+    text-align: center;
+}
+.formulaire table{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+}
+.formulaire table tr td{
+    display: inline-block;
+    margin-top: 6px;
+}
+.formulaire input,.formulaire tr td select{
+    background-color: rgba(0, 0, 0, 0.04);
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.pos{
+    width: 146px;
+    height: 25px;
+}
+
+.fa-solid{
+    display: none;
+    visibility: hidden;
+}
+
+.checkformlabel {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.07);
+    margin-right: 73px;
+    font-size: 19px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 2px;
+}
+
+.divcherchebtn{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 30px;
+}
+.cherchebtn{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    transition: 0.3s ease;
+}
+.cherchebtn:hover{
+    box-shadow: 0 0 15px rgb(0, 81, 255);
+    transform: scale(1.1);
+}
+.autoApi{
+    width: 300px;
+    height: 25px;
+    font-size: 15px;
+}
+
+
+
+.buttonPlusInfo{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline ;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: bold;
+    cursor:pointer;
+}
+.plusDeFormulaire{
+    visibility: hidden;
+}

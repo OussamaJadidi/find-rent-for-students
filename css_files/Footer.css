@@ -1,0 +1,159 @@
+.footer{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 220px;
+}
+
+
+.footer-content{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    background-color: rgba(0,0,0,0.95);
+}
+.ggg{
+    display: none;
+}
+
+/*partie bas*/
+.lower-footer{
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-align: center;
+}
+
+.fff{
+    display: absolute;
+    width: 300px;
+}
+.fff h2{
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+/*partie 1*/
+
+.logo-footer{
+    line-height: 70px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.logo-footer h5,.logo-footer h3{
+    display: inline;
+}
+.logo-footer h5{
+    color: blue;
+}
+.logo-footer h3{
+    color: white;
+}
+.description-footer{
+    color: white;
+}
+
+
+/*partie 2*/
+.footer-part2{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.footer-links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+.footer-links li{
+    color: white;
+    margin-bottom: 15px;
+}
+.footer-links i{
+    color: white;
+}
+.footer-part2 ul li:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.fa-brands{
+    font-size: 25px;
+}
+
+
+/*partie 3*/
+
+.footer-part3 form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.footer-part3 input,.footer-part3 textarea{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white
+}
+.footer-part3 textarea{
+    border-radius: 2px;
+    width: 85%;
+    margin-bottom: 4px;
+}
+.footer-part3 input{
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    height: 20px;
+    border-radius: 2px;
+}
+.footer-part3 button{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    width: 85%;
+    height: 20px;
+    cursor: pointer;
+}
+.footer-part3 button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px blue;
+}
+.khwa{
+    width: 100%;
+    height: 1000px;
+}
+
+@media (max-width: 900px){
+
+    .footer{
+        flex-wrap: wrap;
+        height: 270px;
+    }
+    .footer-content{
+        justify-content: space-between;
+    }
+    .footer-part1{
+        display: none;
+    }
+    .ggg{
+        display: inline;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .footer-content{
+        height: 250px;
+        
+    }
+    
+    .footer-part2,.footer-part3{
+        flex-grow: 1;
+        margin-top: 50px;
+    }
+
+}

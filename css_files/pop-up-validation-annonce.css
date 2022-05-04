@@ -1,0 +1,40 @@
+.pop-up-validation{
+    display: none;
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 1s ease-in-out;
+}
+.pop-up-cadre{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50% ;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    
+}
+.pop-up-cadre span{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    top:50%;
+    transform: translateY(-50%);
+    margin-left: 30px;
+}
+.pop-up-cadre i{
+    width: 100%;
+    position: absolute;
+    top: 50% ;
+    transform: translateY(-50%);  
+    left: 20px;
+    margin-left: 15px;
+}

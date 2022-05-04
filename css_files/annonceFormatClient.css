@@ -1,0 +1,90 @@
+.mesAnnoncesContainer{
+    display: flex;
+    margin: 10px 20px 10px 20px;
+    
+}
+.image-Annonce img{
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+.info-mesAnnonce{
+    background-color: rgba(0, 0, 255, 0.05);
+    height: 175px;
+    border-radius: 0 5px 5px 0;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    
+}
+.prix-annonce h2{
+    display: inline;
+    color: blue;
+    margin-left: 20px ;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+.titre-annonce {
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 20px ;
+    margin-top: -5px;
+    font-family: Rubik,Roboto,Tajawal,-apple-system,BlinkMacSystemFont,Helvetica;
+    
+}
+.type-annonce{
+    position: absolute;
+    bottom:27px;
+    margin-left: 20px;
+    border-bottom: 1px solid gray;
+    color: gray;
+    
+}
+.time-location {
+    position: absolute;
+    width: 100%;
+    margin-left: 20px;
+    font-size: 14px;
+    color: gray;
+    bottom: 5px;
+}
+.time-location i{
+    color: gray;
+    
+}
+.edit-delete i {
+    font-size: 15px;
+    margin-top: 25px;
+    
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+}
+.edit-delete i:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.fa-pen{
+    right: 10px;
+    top: -15px;
+}
+.fa-pen:hover{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+.fa-trash{
+    right: 10px;
+    bottom: 10px;
+}
+.fa-trash:hover{
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.colocation_stick {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.7);
+    top : 78px;
+    left:20px;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.colocation_stick i{
+    color:rgba(0, 0, 0, 0.7);
+}

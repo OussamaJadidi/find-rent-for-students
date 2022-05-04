@@ -1,0 +1,65 @@
+.emailVide{
+    color: red;
+    position: absolute;
+    top: 296px;
+    left: 51px;
+    font-size: 14px;
+    display: none;
+}
+.nomVide{
+    color: red;
+    position: absolute;
+    top: 349px;
+    left: 51px;
+    font-size: 14px;
+    display: none;
+}
+.villeVide{
+    color: red;
+    position: absolute;
+    top: 237px;
+    left: 51px;
+    font-size: 14px;
+    display: none;
+}
+.gmailVide{
+    color: red;
+    position: absolute;
+    top: 289px;
+    left: 51px;
+    font-size: 14px;
+    display: none;
+}
+.telephoneVide{
+    color: red;
+    position: absolute;
+    top: 340px;
+    left: 51px;
+    font-size: 14px;
+    display: none;
+}
+.motpasseVide{
+    color: red;
+    position: absolute;
+    top: 207px;
+    left: 51px;
+    font-size: 14px;
+    display: none;
+}
+.motpasseIncorrect{
+    color: red;
+    position: absolute;
+    top: 270px;
+    left: 51px;
+    font-size: 14px;
+    display: none;
+}
+.dataIncorrect{
+    color: red;
+    position: absolute;
+    top: 349px;
+    left: 51px;
+    font-size: 14px;
+    display: none;
+    visibility: hidden;
+}

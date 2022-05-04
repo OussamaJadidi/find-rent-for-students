@@ -1,0 +1,178 @@
+.escape-head{
+    width: 100%;
+    height: 30px;
+}
+.titre-ajouter-annonce{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ajouter-annonce{
+    display: block;
+    position: relative;
+    height: 1000px;
+    border: 1px solid gray;
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.upload-images{
+    display: inline-block;
+    position: relative;
+
+}
+.upload-images input{
+    display: none;
+}
+.upload-images-h3{
+    position: absolute;
+    width: 300px;
+    top: 175px;
+    left: 160px;
+}
+
+#icon1{
+    visibility: visible;
+    position:absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 100px 150px 100px 150px;
+    cursor: pointer;
+}
+#icon1:hover{
+    background-color: rgba(0,0,0,0.1);
+    transition: 0.35s linear;
+}
+#icon2{
+    visibility: hidden;
+    position:absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 100px 155px 100px 155px;
+    cursor: pointer;
+}
+#icon2:hover{
+    background-color: rgba(0,0,0,0.1);
+    transition: 0.35s linear;
+}
+
+.dataAnnonceNecess > table{
+    width: 800px;
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 400px;
+}
+.dataAnnonceNecess-input,.dataAnnonceNecess-select,.dataAnnonceNecess textarea{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 30px;
+    width: 500px;
+    margin-bottom: 15px;
+}
+.data-Supplementaire{
+    position: absolute;
+    left: 50px;
+    top: 320px;
+}
+.data-Supplementaire h3,.dataAnnonceNecess h3{
+    padding-bottom: 15px;
+}
+.data-Supplementaire b{
+    font-size: 20px;
+}
+.data-Supplementaire input,.data-Supplementaire textarea,.data-Supplementaire select{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 30px;
+    width: 400px;
+    margin-bottom: 15px;
+}
+.ajouter-annonce input[type="submit"]{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    box-shadow: 0 0 15px black;
+    transition: 0.2s linear;
+}
+.ajouter-annonce input[type="submit"]:hover{
+    box-shadow: 0 0 20px blue;
+    
+}
+.adresseLog {
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.villeLog {
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.payLog{
+    width: 90px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.plus-images{
+    position: relative;
+    top: 380px;
+    left: 50px;
+    width: 1000px;
+}
+.plus-images b{
+    font-size: 20px;
+}
+.plus-images i{
+    display: inline-block;
+    font-size: 40px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 80px 100px 80px 100px;
+    cursor: pointer;
+}
+
+.plus-images input{
+    display:none;
+}
+
+.img-container img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 100px;
+
+}
+.imgNecAver{
+    position: absolute;
+    color: rgba(0,0,0,0.7);
+    width: 400px;
+    left: 60px;
+    top:275px;
+}

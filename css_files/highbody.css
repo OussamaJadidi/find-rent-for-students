@@ -1,0 +1,56 @@
+.high-body{
+    overflow: hidden;
+    height: 600px;
+}
+.backgroundbody{
+    z-index: -1;
+    position: relative;
+    width: 400%;
+    margin: 0;
+    left:0;
+    animation: 20s change ease-in-out infinite;
+}
+.backgroundbody img{
+    width: 25%;
+    float: left;
+}
+@keyframes change {
+    
+    0%{
+        left:0;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: 0%;
+    }
+    
+}
+@media (max-width: 800px){
+    
+    .high-body{
+        background-color: rgba(0,0,0,0.1);
+    }
+    .backgroundbody{
+        display: none;
+    }
+}

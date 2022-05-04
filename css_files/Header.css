@@ -1,0 +1,140 @@
+
+.head{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    font-family: 'Akaya Telivigala',cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.logo{
+    position: absolute;
+    display: inline;
+    left: 30px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.logo h5,.logo h3{
+    display: inline;
+}
+.logo h5{
+    color: blue;
+}
+.head ul{
+    display: inline;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.head li{
+    display: inline-block;
+    right: 20px;
+}
+.li1{
+    margin-right: 25px;
+    padding: 0;
+}
+
+.head li a{
+    color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 5px;
+}
+.head li a:hover{
+    color: blue;
+    transition: 0.5s linear;
+    border-bottom: 1px solid blue;
+}
+.iconLog,.iconUpDown,.logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.iconUpDown{
+    display: inline;
+}
+
+.iconLog{
+    display: inline;
+}
+
+.id li button,.id li{
+    cursor: pointer;
+    display: inline-block;
+}
+.btnprobleme{
+    background-color: red;
+}
+.head ul span li span{
+    font-family: 'Akaya Telivigala',cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.buttonDéposition{
+    width: 180px;
+    top: 19px;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.buttonDéposition:hover{
+    
+    box-shadow: 0 0 16px blue;
+    transform: scale(1.1);
+
+}
+.box_login{
+    visibility: hidden ;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: white;
+    position: absolute;
+    right:10px;
+    top:65px;
+    box-shadow: 0 0 5px black;
+}
+.li_login{
+    display: block;
+    margin: 0px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+}
+.li_login:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 750px){
+    .logo {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .li1122:nth-child(1) {
+        display: none;
+    }
+    .head ul{
+        right: 20px;
+    }
+    .buttonDéposition{
+        width: 150px;
+        font-size: 12px;
+    }
+}
+@media (max-width:580px){
+    .li1122:nth-child(2) {
+        display: none;
+    }
+}
