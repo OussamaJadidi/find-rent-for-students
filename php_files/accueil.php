@@ -1,7 +1,7 @@
 <!--index.php-->
 <?php
     session_start();
-    if(isset($_SESSION['pageEtud']))header('locatoin:pageEtudiant.php');
+    if(isset($_SESSION['pageEtud']))header('locatoin:pageEtudiant.php');;;
     if(isset($_SESSION['pageProp']))header('locatoin:pagePropiétaire.php');
     if(isset($_SESSION['pageEtud']))header('locatoin:pageAdministrateur.php'); 
     include_once 'header.php';
