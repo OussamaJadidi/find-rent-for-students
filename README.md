@@ -1,7 +1,11 @@
 # Location-logements
 site web de location des logement / projet fin d'études
+## Pour explorer le site dans votre local server go to the path of :
+  http://localhost/find-rent-for-students/php_files/accueil.php
 ## Description génerale 
 Mon projet de fin d’études consiste à développer un site web de location et colocation des logements pour les étudiants. Mon site web doit constituer un moyen simple aux étudiants pour rechercher des logements adaptés pour leurs budgets et pour la localisation de leurs universités.
+## What I want to update
+I know that my project files are not structured,so I wanna remanage my project file structure :)
 ##  1.	Espace visiteur
 Lors de la visite d’un utilisateur anonyme à notre site web on lui affiche la page d’accueil principale suivante :
 ![Capture web_5-5-2022_91759_localhost](https://user-images.githubusercontent.com/100240279/166880056-17e997c2-922a-45b2-96db-c722fb3139ad.jpeg)
